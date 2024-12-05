@@ -1,0 +1,23 @@
+body,html {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgb(160, 198, 226);
+	touch-action: none;
+}
+
+svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #b0d3d4;
+	cursor: pointer;
+	filter: sepia(20%);
+	background-image: url("bautroi.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
